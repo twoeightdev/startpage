@@ -3,7 +3,7 @@ body {
   font-size: 12pt;
   color: #ebdbb2;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) repeat,
-    url("../images/background.jpg") no-repeat center fixed;
+  url("../images/background.jpg") no-repeat center fixed;
   background-color: #1d2021;
   -webkit-background-size: cover;
   -moz-background-size: cover;
