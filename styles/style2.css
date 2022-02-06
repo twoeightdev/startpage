@@ -1,7 +1,7 @@
 body {
   font-family: monospace;
   font-size: 12pt;
-  color: #ebdbb2;
+  color: #d4be98;
   background-color: #1d2021;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,13 +39,13 @@ a {
 #clock {
   text-align: center;
   font-size: 24pt;
-  color: #98971a;
+  color: #a9b665;
 }
 
 #log_time {
   padding-left: 5px;
   text-align: center;
-  color: #cc241d;
+  color: #ea6962;
 }
 
 .search-bar {
@@ -57,7 +57,7 @@ a {
 .search-bar input {
   min-width: 500px;
   border-radius: 5px;
-  color: #ebdbb2;
+  color: #d4be98;
   background-color: #1d2021;
   border: 0px solid #1d2021;
   width: 50%;
@@ -109,7 +109,7 @@ a {
 }
 
 .bookmark-set {
-  border: 1px solid #458588;
+  border: 1px solid #7daea3;
   flex: 1 0 100px;
   margin-right: 20px;
   margin-top: 10px;
@@ -123,14 +123,14 @@ a {
   text-align: center;
   margin-bottom: 5px;
   color: #1d2021;
-  background-color: #458588;
+  background-color: #7daea3;
 }
 
 .bookmark {
   font-size: 11pt;
   margin-bottom: 2px;
   text-align: center;
-  color: #458588;
+  color: #7daea3;
 }
 
 .bookmark a:focus {
