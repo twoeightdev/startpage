@@ -41,7 +41,7 @@ body {
     text-align: center;
     margin-left: 10px;
     font-size: 12pt;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: none;
     color: #ebdbb2;
     background-color: #1d2021;
