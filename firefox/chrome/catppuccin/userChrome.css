@@ -11,17 +11,17 @@ statuspanel[type="overLink"],
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content] > html {
-  background: #1d2021 !important;
+  background: #1e1e2e!important;
 }
 
-/* Personal UI Customization */
+/* Personal UI Customizations */
 
 html#main-window {
-  --color-bg: #1d2021;
-  --color-alt-bg: #282828;
-  --color-fg: #ebddb2;
-  --color-text: #b8bb26;
-  --color-selected: #458588;
+  --color-bg: #1e1e2e;
+  --color-alt-bg: #313244;
+  --color-fg: #cdd6f4;
+  --color-text: #a6e3a1;
+  --color-selected: #89b4fa;
   --toolbar-bgcolor: var(--color-bg) !important;
 }
 
