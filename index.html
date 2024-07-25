@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="scripts/time.js"></script>
-        <script src="scripts/greetings.js"></script>
-        <script src="scripts/poem.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div id="title">Welcome Back</div>
-            <div id="date"></div>
-            <div id="time"></div>
-            <div class="search-bar">
-                <form id="form" role="search" >
-                    <input
-                        type="search"
-                        id="query"
-                        name="q"
-                        placeholder="Search in DuckDuckGo"
-                        autocomplete="on"
-                    >
-                </form>
-            </div>
-            <div class="bookmark-container">
-                <div class="bookmark-set">
-                    <div class="bookmark-title">Entertainment</div>
-                    <div class="bookmark-inner-container">
-                        <div class="bookmark">
-                            <a href="https://www.bilibili.tv/en/anime">Bilibili</a>
-                        </div>
-                        <div class="bookmark">
-                            <a href="https://www.youtube.com/">Youtube</a>
-                        </div>
-                        <div class="bookmark">
-                            <a href="https://www.twitch.tv/">Twitch</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="bookmark-set">
-                    <div class="bookmark-title">Social</div>
-                    <div class="bookmark-inner-container">
-                        <div class="bookmark">
-                            <a href="https://www.reddit.com/">Reddit</a>
-                        </div>
-                        <div class="bookmark">
-                            <a href="https://stackoverflow.com/">Stackoverflow</a>
-                        </div>
-                        <div class="bookmark">
-                            <a href="https://web.whatsapp.com/">Whatsapp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="bookmark-set">
-                    <div class="bookmark-title">Dev</div>
-                    <div class="bookmark-inner-container">
-                        <div class="bookmark">
-                            <a href="https://github.com">Github</a>
-                        </div>
-                        <div class="bookmark">
-                            <a href="https://www.archlinux.org/">Archlinux</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="quote" id="poem"></div>
-            <div class="name" id="author"></div>
-            <script>
-                const f = document.getElementById("form");
-                const q = document.getElementById("query");
-                const search = "https://duckduckgo.com/?t=ffab&q=";
 
-                function submitted(event) {
-                    event.preventDefault();
-                    const url = search + q.value + "&ia=web";
-                    window.open(url, "_self");
-                }
-                f.addEventListener("submit", submitted);
-            </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="scripts/time.js"></script>
+    <script src="scripts/greetings.js"></script
+        <script src="scripts/poem.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">Welcome Back</div>
+        <div id="date"></div>
+        <div id="time"></div>
+        <div class="search-bar">
+            <form id="form" role="search">
+                <input type="search" id="query" name="q" placeholder="Search in DuckDuckGo" autocomplete="on">
+            </form>
+        </div>
+        <div class="bookmark-container">
+            <div class="bookmark-set">
+                <div class="bookmark-title">Entertainment</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark">
+                        <a href="https://www.bilibili.tv/en/anime">Bilibili</a>
+                    </div>
+                    <div class="bookmark">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </div>
+                    <div class="bookmark">
+                        <a href="https://www.twitch.tv/">Twitch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Social</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark">
+                        <a href="https://www.reddit.com/">Reddit</a>
+                    </div>
+                    <div class="bookmark">
+                        <a href="https://stackoverflow.com/">Stackoverflow</a>
+                    </div>
+                    <div class="bookmark">
+                        <a href="https://web.whatsapp.com/">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Dev</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark">
+                        <a href="https://github.com">Github</a>
+                    </div>
+                    <div class="bookmark">
+                        <a href="https://www.archlinux.org/">Archlinux</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quote" id="poem"></div>
+        <div class="name" id="author"></div>
+        <script>
+            const f = document.getElementById("form");
+            const q = document.getElementById("query");
+            const search = "https://duckduckgo.com/?t=ffab&q=";
+
+            function submitted(event) {
+                event.preventDefault();
+                const url = search + q.value + "&ia=web";
+                window.open(url, "_self");
+            }
+            f.addEventListener("submit", submitted);
+        </script>
         <div>
-    </body>
+</body>
+
 </html>
