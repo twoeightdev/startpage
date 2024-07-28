@@ -78,10 +78,11 @@ html#main-window {
 
 /* Declutter url */
 
-/* Remove url star bookmark icon */
+/* Remove url star bookmark and reader icon */
 
 .urlbarView-favicon,
 .urlbar-history-dropmaker,
+#reader-mode-button,
 #star-button,
 #identity-box {
   display: none !important;
