@@ -78,12 +78,12 @@ html#main-window {
 
 /* Declutter url */
 
-/* Remove url star bookmark, reader, pip icons */
+/* Remove url star bookmark, reader, pip, across device icons */
 
 .urlbarView-favicon,
 .urlbar-history-dropmaker,
+#firefox-view-button,
 #identity-icon-box:has(> #identity-icon-label[value="Extension (Tabliss)"]),
-/*#alltabs-button,*/
 #identity-box:not(.extensionPage) > #identity-icon-box,
 #picture-in-picture-button,
 #reader-mode-button,
