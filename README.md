@@ -6,4 +6,4 @@ gruvbox and catppuccin.
 For firefox themes, copy both `userChrome.css` and `userContent.css` in
 `~/.mozilla/firefox/xxxxx-default-release/chrome/`
 
-![Startpage screen preview01](images/screenshot.png)
+![preview01](images/screenshot.png)
