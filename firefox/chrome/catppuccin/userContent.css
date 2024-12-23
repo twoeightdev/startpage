@@ -13,7 +13,7 @@ span.TridactylHint {
     color: #1e1e2e !important;
     position: absolute !important;
     text-transform: lowercase !important;
-    padding: 0 1pt !important;
+    /*padding: 0 1pt !important;*/
     text-align: center !important;
 }
 
